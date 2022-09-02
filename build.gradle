@@ -72,8 +72,7 @@ dependencies {
 
     implementation 'org.codehaus.groovy:groovy-all:2.4.7'
 
-    implementation 'mysql:mysql-connector-java:5.1.6'
-
+    runtimeOnly 'mysql:mysql-connector-java:8.0.29'
 
     // Simple Logging Facade for Java (SLF4J) https://www.slf4j.org/
     implementation 'org.slf4j:slf4j-api:1.7.36'
